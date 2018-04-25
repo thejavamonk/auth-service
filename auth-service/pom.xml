@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.authservice</groupId>
+    <artifactId>auth-service</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+
+	<properties>
+		<jdk.version>1.8</jdk.version>
+	</properties>
+
+  <modules>
+  		<module>auth-io</module>
+        <module>auth-model</module>
+        <module>auth-core</module>
+        <module>auth-web</module>
+    </modules>
+
+    <build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>${jdk.version}</source>
+					<target>${jdk.version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

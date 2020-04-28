@@ -1,4 +1,4 @@
-package com.authservice.authweb;
+package com.authservice;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

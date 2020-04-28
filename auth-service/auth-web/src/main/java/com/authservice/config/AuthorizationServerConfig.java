@@ -1,4 +1,4 @@
-package com.authservice.authweb.config;
+package com.authservice.config;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -24,7 +24,7 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 
-import com.authservice.authcore.UserService;
+import com.authservice.service.UserService;
 
 @Configuration
 @EnableAuthorizationServer

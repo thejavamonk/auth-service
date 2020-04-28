@@ -1,4 +1,4 @@
-package com.authservice.authweb.config;
+package com.authservice.config;
 
 import org.springframework.stereotype.Component;
 

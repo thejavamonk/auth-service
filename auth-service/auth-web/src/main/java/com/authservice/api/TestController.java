@@ -1,4 +1,4 @@
-package com.authservice.authweb.api;
+package com.authservice.api;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

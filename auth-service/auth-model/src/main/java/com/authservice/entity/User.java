@@ -1,4 +1,4 @@
-package com.authservice.authmodel;
+package com.authservice.entity;
 
 import java.util.ArrayList;
 import java.util.List;
